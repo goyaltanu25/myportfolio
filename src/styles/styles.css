@@ -1,0 +1,135 @@
+.nav{
+    padding: 5vh 5vw;
+    position: sticky;
+    min-height: 10vh;
+}  
+.nav-content{
+    margin: 10px 7vh;
+    font-size: 16px;
+    float: right;
+}
+.nav-content:hover{
+    font-size: 18px;
+    font-weight: bold;
+    color:#52796F;
+}
+.brand{
+    float: left;
+    margin: 0px 1vh;
+    font-size: 30px;
+    color: #744b99;
+    font-weight: bold;
+}
+.footer{
+    padding: 2vh;
+    margin: 3vh 6vw;
+    min-height: 25vh;
+}
+.footer-regards-msg{
+    float: left;
+    padding: 2vw;
+    font-size: larger;
+    color: #354F52;
+    font-weight: bold;
+}
+.footer-social-links{
+    padding: 2vw;
+    font-size: medium;
+    color: #354F52;
+    float: right;
+}
+
+.left-section{
+    margin: 12vh 22vw;
+}
+.right-section{
+    margin: 12vh 0vw 0vh 38vw;
+}
+.screen-center-content{
+    font-size: 42px;
+    color: #52796F;
+    word-break: break-word;
+    max-width: 40vw;
+    font-style: italic;
+    text-align: justify;
+}
+
+.small-heading{
+    text-align: center;
+    text-transform: Uppercase;
+    color: grey;
+    margin: 20vh;
+}
+.content-section{
+    color: grey;
+    text-align: justify;
+    word-break: break-word;
+    max-width: 45vw;
+    font-family: -webkit-pictograph;
+    padding: 14vh 0vh;
+    line-height: 2rem;
+}
+.skills-section{
+    padding: 0px;
+    margin: 10vh 0vh;
+}
+.skills-section li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 28px;
+    color: #2a3d38;
+    font-family: monospace;
+}
+.skills-section li:nth-last-of-type(n+2)::after{
+    content: '/'!important;
+    position: static!important;
+    width: auto!important;
+    height: auto!important;
+    border: 0!important;
+    display: inline-block!important;
+    margin: 0 1rem!important;
+    color: #52796F;
+}
+.head-font{
+    font-size: 32px;
+    color: #171854;
+    font-weight: bolder;
+    line-height: 14vh;
+}
+.work-font{
+    font-size: 72px;
+    color: #354F52;
+
+}
+svg{
+    transform: rotate(-45deg);
+    fill: #84A98C;
+    stroke-width: 2px;
+    stroke: #84A98C;
+}
+.project-section{
+    list-style-type: none;
+}
+.project-section li{
+    padding: 2vh;
+    text-align: start;
+}
+#spinner {
+    text-align: center;
+    animation-name: spin, depth;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+  }
+  @keyframes spin {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(-360deg); }
+  }
+   @keyframes depth {
+    0% { text-shadow: 0 0 black; }
+    25% { text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; }
+    50% { text-shadow: 0 0 black; }
+    75% { text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; }
+    100% { text-shadow: 0 0 black; }
+  } 
+
