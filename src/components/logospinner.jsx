@@ -7,7 +7,7 @@ export default class LogoSpinner extends Component {
     render() {
         return <>
                <div>
-                   <img src={logo} height="100" width="100" id="spinner"/>
+                   <img src={logo} height="100" width="100" id="spinner" alt="spinner"/>
                </div>
             </>
     }
