@@ -32,21 +32,13 @@
         "intro": "I create design and functionality with mind and experiments.",
         "githubprojects": [
             {
-                "projectName": "MyProject1",
-                "github-link": ""
+                "projectName": "Inventory Portal",
+                "github-link": "https://inventoryportal.netlify.app/ "
             },
             {
-                "projectName": "MyProject1",
-                "github-link": ""
+                "projectName": "Corona Case Tracker",
+                "github-link": "https://covidapptracker-2020.netlify.app/"
             },
-            {
-                "projectName": "MyProject1",
-                "github-link": ""
-            },
-            {
-                "projectName": "MyProject1",
-                "github-link": ""
-            }
         ]
     }
 ]
