@@ -33,11 +33,11 @@
         "githubprojects": [
             {
                 "projectName": "Inventory Portal",
-                "github-link": "https://inventoryportal.netlify.app/ "
+                "githublink": "https://inventoryportal.netlify.app/ "
             },
             {
                 "projectName": "Corona Case Tracker",
-                "github-link": "https://covidapptracker-2020.netlify.app/"
+                "githublink": "https://covidapptracker-2020.netlify.app/"
             },
         ]
     }
