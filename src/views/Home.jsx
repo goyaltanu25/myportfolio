@@ -15,7 +15,7 @@ class Home extends Component{
         </section>
         <section>
             <ul className="project-section">
-                {data[2].githubprojects.map((project)=><li><a href={project['githublink']} target="_blank" rel="noreferrer">{project.projectName}</a></li>)}
+                {data[2].githubprojects.map((project)=><li><a href={project.githublink} target="_blank" rel="noreferrer">{project.projectName}</a></li>)}
             </ul>
         </section>
         </> 
