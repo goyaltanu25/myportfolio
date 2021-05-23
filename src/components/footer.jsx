@@ -9,7 +9,7 @@ export default class Footer extends Component{
          <div>
             <span className="footer-social-links">Uttar Pradesh, India.</span>
             <span className="footer-social-links">
-                <a href="https://icanfeelaround.wordpress.com/" target="_blank">
+                <a href="https://icanfeelaround.wordpress.com/" target="_blank" rel="noreferrer">
                 Blog
                 </a>
             </span>
