@@ -7,6 +7,11 @@ body {
 }
 a{
   text-decoration: none;
+  color: #744b99;
+}
+a:hover{
+  font-weight: bold;
+  color:#52796F;
 }
 
 code {

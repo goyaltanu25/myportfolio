@@ -111,8 +111,8 @@ svg{
     list-style-type: none;
 }
 .project-section li{
+    font-size: 25px;
     padding: 2vh;
-    text-align: start;
 }
 #spinner {
     text-align: center;

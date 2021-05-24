@@ -20,6 +20,11 @@ class About extends Component{
                             return <li>{skill}</li>
                         })}
                     </ul>
+                    <ul className="skills-section">
+                        {section.profiles.map((profile)=>{
+                            return <li><a href={profile.profileLink} target="_blank" ref="no-refferer">{profile.profile}</a></li>
+                        })}
+                    </ul>
                 </section>
                 </div>
                 </>

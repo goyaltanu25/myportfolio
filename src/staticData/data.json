@@ -5,19 +5,27 @@
             "heading":"I am Tanu Goyal,an experienced Front End Developer.",
             "subheading":"I am 24 years old, Based in India. Apart from Technical Interests I enjoy listening TED talks a lot, I have keen interest in becoming a better human being, I am developing interest in planting, reading and I like writing. And Not to miss, I also like dancing and chanting devotional songs Well.",
             "para"  : "As a Front End Developer, I have experience in following",
-            "skills":["ReactJs","Angular2+","TypeScript","JavaScript","HTML5","CSS3","SCSS","Azure","Agile"]
+            "skills":["ReactJs","Angular2+","TypeScript","JavaScript","HTML5","CSS3","SCSS","Azure","Agile"],
+            "profiles":[]
         },
         {
             "heading":"Working in Accenture.",
             "subheading":"I am a working professional, currently working in Accenture, I have previously worked in IBM for 2 years, and I have worked on Angular extensively there. However I still feel there is a lot to learn. I have got expertise in Angular, Javascript, HTMl5, CSS3, SCSS, React and other Front End Technologies. I am an independent Developer who really enjoy coding and feel responsible about my code and work.",
             "para":null,
-            "skills":[]
+            "skills":[],
+            "profiles":[]
         },
         {
             "heading":"My Experiences",
             "subheading":"These are a few snapshots of my growing career and there is a lot to add here. One is my personal favourite which belongs to my heart, that is my blog Icanfeelaround, whenever I feel a little low in life sometimes I go through my blogs, sometimes when I feel something is worth noting and a lesson for lifetime, I write about it on my blog. So Do Visit, its a nice place. Another one is my github profile where I have kept my code and my learning journey.",
-            "skills":["Github","Blog","Instagram","Linkedin"],
-            "para":null
+            "profiles":[
+                {"profile":"Github","profileLink":"https://github.com/goyaltanu25"},
+                {"profile":"Blog","profileLink":"https://icanfeelaround.wordpress.com"},
+                {"profile":"Linkedin","profileLink":"https://www.linkedin.com/in/tanu-goyal-b85617b0/"}
+ 
+            ],
+            "para":null,
+            "skills":[]
         }
     ]
     },
