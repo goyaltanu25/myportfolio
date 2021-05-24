@@ -22,7 +22,7 @@ class About extends Component{
                     </ul>
                     <ul className="skills-section">
                         {section.profiles.map((profile)=>{
-                            return <li><a href={profile.profileLink} target="_blank" ref="no-refferer">{profile.profile}</a></li>
+                            return <li><a href={profile.profileLink} target="_blank" rel="noreferrer">{profile.profile}</a></li>
                         })}
                     </ul>
                 </section>
