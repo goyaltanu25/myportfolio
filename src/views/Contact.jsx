@@ -4,7 +4,7 @@ import data from "../staticData/data.json"
 class Contact extends Component{
     render(){
         return<>
-        <section className="left-section">
+        <section className="center-section">
             <div className="head-font">
                 {data[1].head}
             </div>

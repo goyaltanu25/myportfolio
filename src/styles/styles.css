@@ -2,6 +2,7 @@
     padding: 5vh 5vw;
     position: sticky;
     min-height: 10vh;
+    background-color: #14213D;
 }  
 .nav-content{
     margin: 10px 7vh;
@@ -11,39 +12,66 @@
 .nav-content:hover{
     font-size: 18px;
     font-weight: bold;
-    color:#52796F;
+    color: #fff;;
 }
 .brand{
+    position: fixed;
+    background-color: #e5e5e5;
     float: left;
     margin: 0px 1vh;
     font-size: 30px;
     color: #744b99;
     font-weight: bold;
+    border: 1px solid white;
+    border-radius: 100%;
 }
 .footer{
+    background: black;
     padding: 2vh;
-    margin: 3vh 6vw;
-    min-height: 25vh;
+    min-height: 48vh;
 }
+.line-hr h1{
+    color: #ddd;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+  
+
+.line-hr h1:before, h1:after{
+    flex-grow: 1;
+    height: 1px;
+    content: '\a0';
+    background-color: #ddd;
+    position: relative;
+    top: 0.5em;
+  }
+  
+.line-hr h1:before,.skill-hr::before {
+    margin-right:10px;
+  }
+  
+.footer h1:after {
+    margin-left:10px;
+  }
 .footer-regards-msg{
     float: left;
     padding: 2vw;
     font-size: larger;
-    color: #354F52;
+    color: #E5E5E5;
     font-weight: bold;
 }
 .footer-social-links{
     padding: 2vw;
     font-size: medium;
-    color: #354F52;
+    color: #E5E5E5;
     float: right;
 }
 
-.left-section{
-    margin: 12vh 22vw;
-}
-.right-section{
-    margin: 12vh 0vw 0vh 38vw;
+
+.center-section{
+    margin: 12vh 27vw;
 }
 .screen-center-content{
     font-size: 42px;
@@ -77,7 +105,7 @@
     list-style-type: none;
     display: inline-block;
     font-size: 28px;
-    color: #2a3d38;
+    color: #FCA311;
     font-family: monospace;
 }
 .skills-section li:nth-last-of-type(n+2)::after{
@@ -88,7 +116,7 @@
     border: 0!important;
     display: inline-block!important;
     margin: 0 1rem!important;
-    color: #52796F;
+    color: #b4750f;
 }
 .head-font{
     font-size: 32px;
@@ -109,6 +137,12 @@ svg{
 }
 .project-section{
     list-style-type: none;
+    padding: 42px;
+    line-height: 2;
+    height: 48vh;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
 }
 .project-section li{
     font-size: 25px;
@@ -133,3 +167,38 @@ svg{
     100% { text-shadow: 0 0 black; }
   } 
 
+.img-section img{
+    border: 1px solid grey;
+    border-radius: 100%;
+    margin: 31vh 18vh;
+    align-items: self-start;
+}
+.card-head{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1D3557;
+}
+.card{
+    height: 10%;
+    width: 310px;
+    margin: 0% 4%;
+    padding: 5%;
+}
+.card-header{
+    color: #FCA311;
+    text-align: center;
+    font-size: 40px;
+    padding: 22px;
+}
+.card-content{
+    color: #F1FAEE;
+    text-align: center;
+    line-height: 34px;
+}
+.horizontal-card{
+    display: flex;
+    background-color: black;
+}
+.work-section{
+     background-color: #1D3557;
+}

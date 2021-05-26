@@ -3,15 +3,15 @@ body {
   font-family:monospace,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#CAD2C5;
+  background-color:#FFFFFF;
 }
 a{
   text-decoration: none;
-  color: #744b99;
+  color: #FCA311;
 }
 a:hover{
   font-weight: bold;
-  color:#52796F;
+  color:#E5E5E5;
 }
 
 code {
