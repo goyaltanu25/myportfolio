@@ -14,7 +14,7 @@ class Home extends Component {
                 <section className="container">
                     <div className="content-container">
                         <h1>
-                            <span className="text-greet">Hey, There!</span><br />
+                            <span className="text-greet">Hey,There!</span><br />
                             <span className="text">I am Tanu Goyal,Learning </span>
                             <span className="pink-text">Full Stack Development (MERN)</span>
                         </h1>
