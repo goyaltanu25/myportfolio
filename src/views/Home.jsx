@@ -88,7 +88,7 @@ class Home extends Component {
                         <h1>My Projects</h1>
                         <div>
                             <p>I like to showcase my work, you can browse on my projects below.</p>
-                            <Button variant="contained" color="primary" href="#outlined-buttons">
+                            <Button variant="contained" color="primary" href="/projects">
                                 Browse Projects
                             </Button>
                         </div>
@@ -99,7 +99,7 @@ class Home extends Component {
                         <h1>My Blogs</h1>
                         <div>
                             <p>I try to document what I learn, So If you like any of my work, you can read about how to achieve them here!</p>
-                            <Button variant="outlined" color="primary" href="#outlined-buttons">
+                            <Button variant="outlined" color="primary" href="/blogs">
                                 Read Blogs
                             </Button>
                         </div>

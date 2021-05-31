@@ -23,7 +23,7 @@ export default class PortfolioRoutes extends Component {
         */}
         <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/blog" component={Blogs}/>
+            <Route path="/blogs" component={Blogs}/>
             <Route path="/projects" component={Projects}/>
         </Switch>
         </>
