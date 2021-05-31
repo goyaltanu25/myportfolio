@@ -7,14 +7,14 @@ body {
 }
 a{
   text-decoration: none;
-  color: #FCA311;
+  color: #FFFFFF;
 }
 a:hover{
-  font-weight: bold;
-  color:#E5E5E5;
+  font-weight: bolder;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

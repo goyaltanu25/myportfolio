@@ -6,8 +6,8 @@ import {
 
 //Custom Components
 import Home from '../views/Home';
-import About from '../views/About';
-import Contact from '../views/Contact';
+import Blogs from '../views/Blogs';
+import Projects from '../views/Projects';
 
 
 export default class PortfolioRoutes extends Component {
@@ -23,8 +23,8 @@ export default class PortfolioRoutes extends Component {
         */}
         <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/about" component={About}/>
-            <Route path="/contact" component={Contact}/>
+            <Route path="/blog" component={Blogs}/>
+            <Route path="/projects" component={Projects}/>
         </Switch>
         </>
         )
