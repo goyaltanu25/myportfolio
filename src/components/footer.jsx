@@ -11,11 +11,6 @@ export default class Footer extends Component {
                             <h2 style={{color:'white'}}>Thanks for stopping by!</h2>
                         </span>
                             <span className="footer-social-links">Uttar Pradesh, India.</span>
-                            <span className="footer-social-links">
-                                <a href="https://icanfeelaround.wordpress.com/" target="_blank" rel="noreferrer">
-                                    Blog
-                                </a>
-                            </span>
                             <span className="footer-social-links">goyaltanu25@gmail.com</span>
                         </div>
                     </div>
