@@ -24,11 +24,11 @@ const Blogs =()=>{
            return <section className="blog-section">
             <img src={post.featured_image} className="introImg"/>
             <h3 className="blog-link" dangerouslySetInnerHTML={createMarkup(post.title)}/>
+            {new Date(post.date).toDateString()}
             <p dangerouslySetInnerHTML={createMarkup(post.excerpt)}/>
             <Button variant="contained" color="primary" href={post.short_URL} target="_blank">
                Read more..
             </Button>
-            {/* date */}
            </section>
         })
         
