@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button } from '@material-ui/core';
 import { SiMicrosoftazure, SiJavascript } from 'react-icons/si';
 import { FaCss3Alt, FaHtml5, FaReact, FaGitAlt, FaNodeJs, FaDatabase } from 'react-icons/fa'
-
+import { Link } from 'react-router-dom';
 
 import introImg from "../assets/personal_info.svg"
 import aboutme from "../assets/aboutme.svg"
@@ -88,8 +88,8 @@ class Home extends Component {
                         <h1>My Projects</h1>
                         <div>
                             <p>I like to showcase my work, you can browse on my projects below.</p>
-                            <Button variant="contained" color="primary" href="/projects">
-                                Browse Projects
+                            <Button variant="contained" color="primary">
+                                <Link to="/projects">Browse Projects</Link>  
                             </Button>
                         </div>
                     </div>
@@ -99,8 +99,8 @@ class Home extends Component {
                         <h1>My Blogs</h1>
                         <div>
                             <p>I try to document what I learn, So If you like any of my work, you can read about how to achieve them here!</p>
-                            <Button variant="outlined" color="primary" href="/blogs">
-                                Read Blogs
+                            <Button variant="outlined" color="primary">
+                            <Link to="/blogs" className="pink-text">Read Blogs</Link>  
                             </Button>
                         </div>
                     </div>
