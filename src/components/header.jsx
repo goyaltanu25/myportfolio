@@ -9,8 +9,8 @@ export default class Header extends Component {
             <div className="nav">
                 <Link to="/">NEW CODER</Link>
                 <Link to="/" className="nav-content">Home</Link>
-                <Link to="/about" className="nav-content">Projects</Link>
-                <Link to="/contact" className="nav-content">Blogs</Link>
+                <Link to="/projects" className="nav-content">Projects</Link>
+                <Link to="/blogs" className="nav-content">Blogs</Link>
             </div>
         </div>
 
