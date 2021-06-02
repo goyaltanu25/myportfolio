@@ -162,6 +162,15 @@
 .blog-link{
     color: #C13EB5;
 }
+.description{
+    width: 600px;
+}
+.portfolio-button{
+    margin-right: 30px;
+}
+.flex-items{
+    display: flex;
+}
 
 /* Footer */
 .footer{
