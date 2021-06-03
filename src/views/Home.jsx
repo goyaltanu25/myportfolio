@@ -7,7 +7,45 @@ import { Link } from 'react-router-dom';
 import introImg from "../assets/personal_info.svg"
 import aboutme from "../assets/aboutme.svg"
 
+const skilldata=[
+    {
+        icon:<FaHtml5/>,
+        class:"html",
+        skill:'HTML5'
+    },{
+        icon:<FaCss3Alt/>,
+        class:"css",
+        skill:'CSS3'
+    },{
+        icon:<FaReact/>,
+        class:"react",
+        skill:'ReactJS'
+    },{
+        icon:<FaGitAlt/>,
+        class:"git",
+        skill:'Git'
+    },{
+        icon:<FaNodeJs/>,
+        class:"node",
+        skill:'Node'
+    },{
+        icon:<SiMicrosoftazure/>,
+        class:"azure",
+        skill:'Azure'
+    },{
+        icon:<SiJavascript/>,
+        class:"js",
+        skill:'JavaScript'
+    },
+    {
+        icon:<FaDatabase/>,
+        class:"db",
+        skill:'Database'
+    }
+]
 class Home extends Component {
+   
+
     render() {
         return <>
             <div className="container-common">
@@ -46,39 +84,12 @@ class Home extends Component {
                     <div>
                         <h1>My Skills</h1>
                         <div className="skills-flex">
-                            <div>
-                                <i className="html icons"><FaHtml5 /></i>
-                                <span><h3>HTML5</h3></span>
+                            {skilldata.map((skill)=>{
+                                return <div className="skill">
+                                <i className={`icons + ${skill.class}`}>{skill.icon}</i>
+                                <span><h3>{skill.skill}</h3></span>
                             </div>
-                            <div>
-                                <i className="icons css"><FaCss3Alt /></i>
-                                <span><h3>CSS3</h3></span>
-                            </div>
-                            <div>
-                                <i className="icons js"><SiJavascript /></i>
-                                <span><h3>JavaScript</h3></span>
-                            </div>
-                            <div>
-                                <i className="icons react"><FaReact /></i>
-                                <span><h3>ReactJS</h3></span>
-                            </div>
-                            <div>
-                                <i className="icons git"><FaGitAlt /></i>
-                                <span><h3>Git</h3></span>
-                            </div>
-                            <div>
-                                <i className="icons azure"><SiMicrosoftazure /></i>
-                                <span><h3>Azure</h3></span>
-                            </div>
-                            <div>
-                                <i className="icons node"><FaNodeJs /></i>
-                                <span><h3>Node</h3></span>
-                            </div>
-                            <div>
-                                <i className="icons db"><FaDatabase /></i>
-                                <span><h3>Database</h3></span>
-                            </div>
-
+                            })}
                         </div>
 
                     </div>

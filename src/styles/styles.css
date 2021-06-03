@@ -185,6 +185,10 @@
 .skills-flex{
     display: flex;
     justify-items: center;
+    flex-wrap: wrap;
+}
+.skill{
+    flex: 1 0 21%;
 }
 
 .icons svg{
@@ -254,8 +258,5 @@
 {
     .footer-container, .navigation-container{
         min-width: 100%;
-    }
-    .skill-container{
-        flex-direction: column;
     }
 }
