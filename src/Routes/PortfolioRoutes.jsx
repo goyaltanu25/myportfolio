@@ -8,6 +8,8 @@ import {
 import Home from '../views/Home';
 import Blogs from '../views/Blogs';
 import Projects from '../views/Projects';
+import LifeBlog from '../views/LifeBlog';
+import TechBlog from '../views/TechBlog';
 
 
 export default class PortfolioRoutes extends Component {
@@ -23,8 +25,10 @@ export default class PortfolioRoutes extends Component {
         */}
         <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/blogs" component={Blogs}/>
+            <Route exact path="/blogs" component={Blogs}/>
             <Route path="/projects" component={Projects}/>
+            <Route path="/blogs/lifeblogs" component={LifeBlog}/>
+            <Route path="/blogs/techblogs" component={TechBlog}/>
         </Switch>
         </>
         )
