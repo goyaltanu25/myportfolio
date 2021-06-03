@@ -21,9 +21,9 @@ const TechBlog =()=>{
         
         {posts.length > 0 && posts.map((post,index)=>{
            return <section key={index} className="blog-section">
+            <img src={post.thumbnail} className="blogsImg"/>
             <h2 className="blog-link" dangerouslySetInnerHTML={createMarkup(post.title)}/>
-            {new Date(post.pubDate).toDateString()}
-            <p dangerouslySetInnerHTML={createMarkup(post.content)}/>
+            <p>{new Date(post.pubDate).toDateString()}</p>
             <Button variant="contained" color="primary" href={post.link} target="_blank">
                Read more..
             </Button>

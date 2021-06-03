@@ -23,7 +23,7 @@ const LifeBlog =()=>{
            return <section className="blog-section">
             <img src={post.featured_image} className="blogsImg"/>
             <h3 className="blog-link" dangerouslySetInnerHTML={createMarkup(post.title)}/>
-            {new Date(post.date).toDateString()}
+            <p>{new Date(post.date).toDateString()}</p>
             <p dangerouslySetInnerHTML={createMarkup(post.excerpt)}/>
             <Button variant="contained" color="primary" href={post.short_URL} target="_blank">
                Read more..
