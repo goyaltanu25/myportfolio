@@ -7,10 +7,12 @@ export default class Header extends Component {
     render() {
         return<div className="navigation-container">
             <div className="nav">
-                <Link to="/">NEW CODER</Link>
+                <Link to="/" className="brand">NEW CODER</Link>
+                <div>
                 <Link to="/" className="nav-content">Home</Link>
                 <Link to="/projects" className="nav-content">Projects</Link>
                 <Link to="/blogs" className="nav-content">Blogs</Link>
+                </div>
             </div>
         </div>
 

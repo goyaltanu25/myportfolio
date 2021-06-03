@@ -1,3 +1,19 @@
+/* global styles */
+
+.MuiButton-containedPrimary {
+    background-color:  #800074 !important;
+    border: 1px solid #800074 !important;
+    border-radius: 32px !important;
+}
+
+.MuiButton-outlinedPrimary {
+    color:  #800074 !important;
+    border: 1px solid #800074 !important;
+    border-radius: 32px !important;
+}
+
+/* End global styles */
+
 /* Icons */
 .html svg{
     fill: #ff714d;
@@ -94,21 +110,7 @@
 
 /* End Containers */
 
-/* global styles */
 
-.MuiButton-containedPrimary {
-    background-color:  #800074 !important;
-    border: 1px solid #800074 !important;
-    border-radius: 32px !important;
-}
-
-.MuiButton-outlinedPrimary {
-    color:  #800074 !important;
-    border: 1px solid #800074 !important;
-    border-radius: 32px !important;
-}
-
-/* End global styles */
 
 
 /* Content Section */
@@ -153,6 +155,7 @@
     min-height: 10vh;
     background-color: #800074;
     border-radius: 0px 0px 20% 20%;
+    overflow: hidden;
 }  
 
 .text-greet{
@@ -188,8 +191,17 @@
     justify-items: center;
     flex-wrap: wrap;
 }
+
 .skill{
     flex: 1 0 21%;
+}
+.brand{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.brand:hover{
+    color: #C13EB5;
+    font-size: 1.5rem;
 }
 
 .icons svg{
@@ -214,7 +226,6 @@
     text-align: center;
     padding: 2vh;
     min-height: 25vh;
-    position: sticky;
     background-color: #800074;
     border-radius: 7% 7% 0% 0%;
 }
