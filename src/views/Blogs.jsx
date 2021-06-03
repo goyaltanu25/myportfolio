@@ -19,12 +19,12 @@ const Blogs =()=>{
         <section className="container-common">
         <section className="blog-container">
         <h1>Read <span className="pink-text">My Blogs</span></h1>    
-        <img src={blogImg} className="introImg"/>
+        <img src={blogImg} className="blogsImg"/>
         </section>    
         
         {posts.length > 0 && posts.map((post)=>{
            return <section className="blog-section">
-            <img src={post.featured_image} className="introImg"/>
+            <img src={post.featured_image} className="blogsImg"/>
             <h3 className="blog-link" dangerouslySetInnerHTML={createMarkup(post.title)}/>
             {new Date(post.date).toDateString()}
             <p dangerouslySetInnerHTML={createMarkup(post.excerpt)}/>

@@ -7,7 +7,7 @@ class Projects extends Component {
         return <section className="container-common">
             <section className="blog-container">
                 <h1>Check <span className="pink-text">My Projects</span></h1>
-                <img src={projectsImg} className="introImg" />
+                <img src={projectsImg} className="blogsImg" />
             </section>
             <section className="blog-section">
                 <div className="description">

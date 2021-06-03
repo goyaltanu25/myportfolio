@@ -31,7 +31,7 @@ class Home extends Component {
                         <h1 className="sub-heading">About me</h1>
                         <p>I am 24 years old, Based in India. Apart from Technical Interests I enjoy listening TED talks a lot, I have keen interest in becoming a better human being, I am developing interest in planting, reading and I like writing.I also like dancing and chanting devotional songs.
                         </p>
-                        <h2>As a Front End Developer, I have experience in following</h2>
+                        <h4>As a Front End Developer, I have experience in following</h4>
                         <ol className="list-items" type="1">
                             <li>ReactJS</li>
                             <li>JavaScript</li>
@@ -42,7 +42,7 @@ class Home extends Component {
                     </div>
 
                 </section>
-                <section className="container skill-container">
+                <section className="skill-container">
                     <div>
                         <h1>My Skills</h1>
                         <div className="skills-flex">
