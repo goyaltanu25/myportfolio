@@ -63,7 +63,7 @@ class Projects extends Component {
             </section>
             <section className="blog-section">
                 <div className="description">
-                    <h2 className="blog-link">3. Know me, Check the quiz?</h2>
+                    <h2 className="blog-link">3. Know me ?, Check the quiz!</h2>
                     <p>This is a CLI Application made using javascript. 
                     </p>
                 </div>
