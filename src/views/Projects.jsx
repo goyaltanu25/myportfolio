@@ -61,6 +61,31 @@ class Projects extends Component {
                 </div>
                
             </section>
+            <section className="blog-section">
+                <div className="description">
+                    <h2 className="blog-link">3. Know me, Check the quiz?</h2>
+                    <p>This is a CLI Application made using javascript. 
+                    </p>
+                </div>
+                <div className="flex-items">
+                <div className="portfolio-button" >
+                    <Button 
+                    variant="contained" 
+                    color="primary" 
+                    href="https://replit.com/@TanuGoyal/How-much-you-know-me" 
+                    target="_blank">
+                        Live Demo
+                    </Button>
+                </div>   
+                <div className="portfolio-button">  
+                    <Button  variant="outlined" color="primary" href="https://github.com/goyaltanu25/Know-Me-CLI-App" target="_blank">
+                        View Source Code
+                    </Button>
+                </div>
+
+                </div>
+               
+            </section>
         
         </section>
     }
