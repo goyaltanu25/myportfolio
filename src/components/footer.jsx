@@ -7,12 +7,9 @@ export default class Footer extends Component {
         return (
             <div className="footer-container">
                 <div className="footer">
-                    <div>
-                        <div>
-                        <span>
-                            <h2 style={{color:'white'}}>Thanks for stopping by!</h2>
-                        </span>
-                        <div className="social-icon-container">
+                <div>
+                    <div className="footer-text">Thanks for stopping by!</div>
+                    <div className="social-icon-container">
                             <div className="social-icons">
                                 <a href="https://www.linkedin.com/in/tanu-goyal-b85617b0/" target="_blank"><FaLinkedinIn/></a>  
                             </div>
@@ -26,10 +23,11 @@ export default class Footer extends Component {
                              <a href="https://goyaltanu25.medium.com/" target="_blank"><AiOutlineMedium/></a>
                             </div>
                         </div>
-                        <span className="footer-social-links">Uttar Pradesh, India.</span>
-                        <span className="footer-social-links">goyaltanu25@gmail.com</span>   
-                        </div>
+                    <div className="footer-social-links">
+                    <span>Uttar Pradesh, India.</span>
+                    <span>goyaltanu25@gmail.com</span>  
                     </div>
+                </div>
                 </div>
             </div>
         )

@@ -42,7 +42,8 @@
 }
 .social-icons svg{
     width: 42px;
-    height: 42px;
+    height: 36px;
+    padding-left: 20px;
 }
 
 /* End Icons */
@@ -115,7 +116,7 @@
 .social-icon-container{
     display: flex;
     justify-content: center;
-    
+
 }
 
 /* End Containers */
@@ -157,7 +158,11 @@
     padding: 10% 0%;
 }
 
-
+.footer-text{
+    color: white;
+    padding: 24px 0px;;
+    font-size: 20px;
+}
 /* End Content Section */
 
 .nav{
@@ -249,10 +254,9 @@
 }
 
 .footer-social-links{
-    padding: 2vw;
-    font-size: medium;
-    color: #E5E5E5;
-    float: right;
+    text-align: center;
+    padding: 16px 0px;
+    color: white;
 }
 
 /* Footer End */
