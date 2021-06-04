@@ -40,6 +40,10 @@
 .js svg{
     fill: #d0d008;
 }
+.social-icons svg{
+    width: 42px;
+    height: 42px;
+}
 
 /* End Icons */
 
@@ -108,6 +112,11 @@
     flex-direction: column;
 }
 
+.social-icon-container{
+    display: flex;
+    justify-content: center;
+    
+}
 
 /* End Containers */
 
