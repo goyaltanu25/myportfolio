@@ -67,7 +67,7 @@ class Home extends Component {
                     </div>
                     <div className="aboutme-content">
                         <h1 className="sub-heading">About me</h1>
-                        <p>I am 24 years old, Based in India. Apart from Technical Interests I enjoy listening TED talks a lot, I have keen interest in becoming a better human being, I am developing interest in planting, reading and I like writing.I also like dancing and chanting devotional songs.
+                        <p>I am a passionate UI Developer, Based out in India. Apart from Technical Interests I enjoy listening TED talks a lot, I have keen interest in becoming a better human being, I am developing interest in planting, reading and I like writing.I also like dancing and chanting devotional songs.
                         </p>
                         <h4>As a Front End Developer, I have experience in following</h4>
                         <ol className="list-items" type="1">
@@ -76,6 +76,7 @@ class Home extends Component {
                             <li>Angular 2+</li>
                             <li>HTML 5</li>
                             <li>CSS3</li>
+      
                         </ol>
                     </div>
 
